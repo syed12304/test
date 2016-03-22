@@ -3,7 +3,7 @@ package Objects;
 public class Properties {
 	
 	public static String loginFilePath = "src/test/java/TestData/LoginData.xls";
-	public static String URL = "http://10.80.168.41";
+	public static String URL = "http://10.80.168.40";
 	public static String chromeDriver = "webdriver.chrome.driver";
 	public static String chromeDriverLocation = "src/test/java/Resources/chromedriver.exe";
 	public static int timerDefault=1000;	
