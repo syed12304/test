@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="browser" value="chrome"/>
+  <test name="ChromeTest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="TestScripts.LoginTests">
+        <methods>
+          <include name="_1001_Login_as_DB_User"/>
+          <include name="_1001_Username_should_be_case_insensitive"/>
+          <include name="_1001_login_As_Admin"/>
+          <include name="closeBrowser"/>
+          <include name="_1001_Login_as_LDAP_user"/>
+          <include name="_1003_Login_page_objecys_verification"/>
+          <include name="_1002_Login_with_Invalid_password"/>
+          <include name="_1002_Login_with_Invalid_user"/>
+          <include name="initiateBrowser"/>
+        </methods>
+      </class> <!-- TestScripts.LoginTests -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

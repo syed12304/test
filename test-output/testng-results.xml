@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="6" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="138852" started-at="2016-02-25T11:39:40Z" finished-at="2016-02-25T11:41:59Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="138852" started-at="2016-02-25T11:39:40Z" finished-at="2016-02-25T11:41:59Z">
+      <class name="TestScripts.HomePageTests">
+        <test-method status="PASS" signature="initiateBrowser()[pri:0, instance:TestScripts.HomePageTests@16c0663d]" name="initiateBrowser" is-config="true" duration-ms="37307" started-at="2016-02-25T17:09:40Z" finished-at="2016-02-25T17:10:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateBrowser -->
+        <test-method status="PASS" signature="_2008_AppInstall()[pri:0, instance:TestScripts.HomePageTests@16c0663d]" name="_2008_AppInstall" duration-ms="10125" started-at="2016-02-25T17:10:18Z" finished-at="2016-02-25T17:10:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- _2008_AppInstall -->
+        <test-method status="PASS" signature="_2008_AppWiring()[pri:0, instance:TestScripts.HomePageTests@16c0663d]" name="_2008_AppWiring" duration-ms="8301" started-at="2016-02-25T17:10:29Z" depends-on-methods="TestScripts.HomePageTests._2008_AppInstall" finished-at="2016-02-25T17:10:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- _2008_AppWiring -->
+        <test-method status="PASS" signature="_2008_RunningAJobInApp()[pri:0, instance:TestScripts.HomePageTests@16c0663d]" name="_2008_RunningAJobInApp" duration-ms="25359" started-at="2016-02-25T17:10:37Z" depends-on-methods="TestScripts.HomePageTests._2008_AppWiring" finished-at="2016-02-25T17:11:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- _2008_RunningAJobInApp -->
+        <test-method status="PASS" signature="_2008_ReinstallingTheApp()[pri:0, instance:TestScripts.HomePageTests@16c0663d]" name="_2008_ReinstallingTheApp" duration-ms="15199" started-at="2016-02-25T17:11:02Z" depends-on-methods="TestScripts.HomePageTests._2008_RunningAJobInApp" finished-at="2016-02-25T17:11:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- _2008_ReinstallingTheApp -->
+        <test-method status="PASS" signature="_2008_CloningTheApp()[pri:0, instance:TestScripts.HomePageTests@16c0663d]" name="_2008_CloningTheApp" duration-ms="30271" started-at="2016-02-25T17:11:17Z" depends-on-methods="TestScripts.HomePageTests._2008_ReinstallingTheApp" finished-at="2016-02-25T17:11:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- _2008_CloningTheApp -->
+        <test-method status="FAIL" signature="_2008_UpgradeAppTest()[pri:0, instance:TestScripts.HomePageTests@16c0663d]" name="_2008_UpgradeAppTest" duration-ms="10122" started-at="2016-02-25T17:11:48Z" depends-on-methods="TestScripts.HomePageTests._2008_CloningTheApp" finished-at="2016-02-25T17:11:58Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: Element is not clickable at point (49, 98). Other element would receive the click: <div id="error-alert" class="modal fade in" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="false" style="display: block;">...</div>
+  (Session info: chrome=48.0.2564.109)
+  (Driver info: chromedriver=2.16.333243 (0bfa1d3575fc1044244f21ddb82bf870944ef961),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 40 milliseconds
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'WINSJ186053-WIC', ip: '153.65.246.108', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_66'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\SJ186053\AppData\Local\Temp\scoped_dir15144_24281}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=48.0.2564.109, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 7f1084b13d23cf7cd32d29f7b4864674]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element is not clickable at point (49, 98). Other element would receive the click: <div id="error-alert" class="modal fade in" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="false" style="display: block;">...</div>
+  (Session info: chrome=48.0.2564.109)
+  (Driver info: chromedriver=2.16.333243 (0bfa1d3575fc1044244f21ddb82bf870944ef961),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 40 milliseconds
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'WINSJ186053-WIC', ip: '153.65.246.108', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_66'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\SJ186053\AppData\Local\Temp\scoped_dir15144_24281}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=48.0.2564.109, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 7f1084b13d23cf7cd32d29f7b4864674
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at Libraries.UIToolFunctions.clickWebElement(UIToolFunctions.java:90)
+	at Libraries.AppFunctions.upgradeApp(AppFunctions.java:75)
+	at TestScripts.HomePageTests._2008_UpgradeAppTest(HomePageTests.java:92)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:207)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:178)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- _2008_UpgradeAppTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:TestScripts.HomePageTests@16c0663d]" name="closeBrowser" is-config="true" duration-ms="1111" started-at="2016-02-25T17:11:58Z" finished-at="2016-02-25T17:11:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestScripts.HomePageTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

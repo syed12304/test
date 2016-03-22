@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="TestScripts.HomePageTests">
+        <methods>
+          <include name="_2008_UpgradeAppTest"/>
+          <include name="_2008_ReinstallingTheApp"/>
+          <include name="initiateBrowser"/>
+          <include name="_2008_CloningTheApp"/>
+          <include name="_2008_AppInstall"/>
+          <include name="closeBrowser"/>
+          <include name="_2008_RunningAJobInApp"/>
+          <include name="_2008_AppWiring"/>
+        </methods>
+      </class> <!-- TestScripts.HomePageTests -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
