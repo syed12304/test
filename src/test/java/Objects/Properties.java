@@ -34,5 +34,6 @@ public class Properties {
 	public static String RHELProfile = "10.80.168.40";
 	public static String RHELDatabaseIP = "10.80.168.40";
 	public static String resourcePath = "c:/resources/";
+	public static String resourcePath1 = "c:/resources/";
 		
 }
